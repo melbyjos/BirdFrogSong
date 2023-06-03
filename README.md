@@ -23,11 +23,10 @@ Model 2: In order to improve our results, we explored existing models for these 
 
 Takeaways: It is clear that this project and data merit far more time and exploration than was feasible in the time we had, but we are motivated to continue to learn what we can from the process.This project gave great insight into the challenges faced by conservation-minded parties to understand audible animal communication, especially the data collection challenges therein. With time, we would have loved to explore many different data preprocessing avenues, including noise removal and data augmentation techniques, more sophisticated image classification techniques, and applications of our methods to other animal sound datasets. 
 
+Getting started:
 
+In order to generate spectrogram datasets, start with the Generate_spectrograms.ipynb notebook. This will generate the spectrograms for the identified bird and frog songs identified in the dataset. Once the data is generated, you can explore it using the BirdNET Spectrograms Confusion Matrices.ipynb notebook. This notebook makes heavy use of the classifiers.py module, which contains a custom class for analyzing data using multiple classification algorithms.
 
-To include:
--Getting started
--How to generate spectrogram and embeddings data
--How to use classifiers to study preprocessed data
+In order to generate the embedding data, run the BirdNET embeddings of Kaggle data.ipynb notebook. This will load the pre-trained BirdNET model with the base layer removed and embed the bird song dataset into 1024-dimensional space. From there, you can explore this data using the BirdNET embeddings Confusion Matrices.ipynb notebook. This again makes use of the classifiers.py module, and it allows you to introduce a custom classifier as an addition to the last layer of the BirdNET neural network.
 
 
