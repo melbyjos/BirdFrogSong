@@ -8,6 +8,10 @@ Much of the work included here was conducted as part of the Erdos Institute Data
 
 **Project Goals:** Classify frog and bird species in audio recordings from Puerto Rico.
 
+**Certifications:** -[JM Certification](https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/joseph-melby)
+-[GP Certification](https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/gautam-prakriya)
+-[FS Certification](https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/florian-stecker)
+
 **Societal Impact:** Classifying bird, frog, and other animal species by their communication techniques is of interest to a wide variety of stakeholders, including conservation-focused organizations and governments, endangered and threatened species advocates, and even hobbyists throughout the general public. Our motivation for this project aligns with the mission of these stakeholders: the more we know about the communication dynamics of these species of rainforest dwellers, the better we can act to protect their homes. This project gave us a deeper appreciation of the important efforts of conservationists and scientists dedicated to understanding these frog and bird species.
 
 **Description of Dataset:** The dataset came from a Kaggle competition called “Rainforest Connection Species Audio Detection” and consisted of 4727 minutes of sound recordings from various locations in the Puerto Rican rainforest, together with 1216 labels identifying subsections of 0.2 - 8s long as the song of one of 24 selected species. Of the 24 species, 11 are frogs and 13 are birds, and many of them are endemic to Puerto Rico.
